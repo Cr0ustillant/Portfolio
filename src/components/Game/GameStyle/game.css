@@ -1,0 +1,29 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.game-container h2 {
+  color: #efef0b;
+}
+
+.game-container .game {
+  border: 1px red solid;
+  width: 80%;
+  height: 800px;
+  background: linear-gradient(#00ccff, #08087a);
+}
+
+.game-container .game #requin {
+  position: relative;
+  bottom: 50%;
+  right: 50%;
+  width: 100px;
+  height: 50px;
+  border: 3px #2b0c4a solid;
+  z-index: 3;
+}
