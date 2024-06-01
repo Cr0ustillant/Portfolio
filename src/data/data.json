@@ -1,35 +1,64 @@
-[
-    [
-        {
-            "title" :  "HolyFood",
-            "description" : "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrment vérifiées par nos équipes.",
+[   
+    [   
+        {   
+            "sectionTitle" : "Mes projets favoris",
+            "title" :  "OhMyFood",
+            "description" : "Création d'un site pour qui répertorie les menus de restaurants gastronomiques.",
+            "language" : "Html et Css",
             "src" : "https://i.ibb.co/kcyw8cC/img-Banner.jpg"  
         },
         {
             "title" : "Kasa",
             "description" : "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+            "language" : "Html et Css",
             "src" : "https://i.ibb.co/QHvBWfs/img-Banner-Space.jpg"
         }, 
         {
             "title" : "Portfolio de Sophie Bluel",
             "description" : "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+            "language" : "Html, Css et JavaScript",
             "src" : "https://i.ibb.co/n8XZwK8/image-Banner.jpg"
         }          
     ],
     [
         {
+            "sectionTitle" : "Autres projets qui j'ai aimé",
             "title" : "P4",
+            "language" : "Html, Css et JavaScript",
             "description" : "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
             "src" : "https://i.ibb.co/n8XZwK8/image-Banner.jpg"
         },          
         {
             "title" : "P5",
             "description" : "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+            "language" : "Html, Css et JavaScript",
             "src" : "https://i.ibb.co/n8XZwK8/image-Banner.jpg"
         },          
         {
             "title" : "P6",
             "description" : "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+            "language" : "Html, Css et JavaScript",
+            "src" : "https://i.ibb.co/n8XZwK8/image-Banner.jpg"
+        } 
+    ] ,
+    [
+        {
+            "sectionTitle" : "Autres projets",
+            "title" : "P7",
+            "description" : "La partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+            "language" : "Html, Css et JavaScript",
+            "src" : "https://i.ibb.co/n8XZwK8/image-Banner.jpg"
+        },          
+        {
+            "title" : "P8",
+            "description" : "bienveillance fait partie des valeurs. Tout comportement du voisinage entraînera une exclusion de notre plateforme.",
+            "language" : "Html, Css et JavaScript",
+            "src" : "https://i.ibb.co/n8XZwK8/image-Banner.jpg"
+        },          
+        {
+            "title" : "P9",
+            "description" : "La bienveillance fait partie des valeurs  de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+            "language" : "Html, Css et JavaScript",
             "src" : "https://i.ibb.co/n8XZwK8/image-Banner.jpg"
         } 
     ] 

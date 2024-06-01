@@ -17,19 +17,9 @@ function Banner({ data }) {
     };
 
     return (
-        <div className='banner' style={{display:'hide'}}>
-            <i className="fa-solid fa-arrow-left" onClick={prevSlide}></i>
+        <div className="banner">
             <img src={data[imgIndex].src} alt={data[imgIndex].title} />
-            <i className="fa-solid fa-arrow-right" onClick={nextSlide}></i>
-            <div className='index-carousel'>
-                {data.map((_,index) => (
-                <span
-                    key={index} 
-                    className={(index === imgIndex) ? "span-selected" : "" } 
-                    id={"span" + index}  
-                    onClick={() => setCarouselImg(index)}>
-                </span>))}
-            </div>
+
         </div>
     );
 }

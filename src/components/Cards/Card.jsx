@@ -1,11 +1,12 @@
 
 
-function Card({ title , description , imgSrc }) {
+function Card({ title , description , imgSrc , language }) {
     return (
         <figure>
             <figcaption>
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{description}</p>
+                <p>{language}</p>
             </figcaption>
             <div className="wrapper">
                 <div className="triangle"></div>

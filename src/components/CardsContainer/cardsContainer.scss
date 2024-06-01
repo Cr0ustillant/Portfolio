@@ -15,6 +15,61 @@ section {
         top: 0;
     }
 
+    h2 {
+        position: absolute;
+        color: white;
+        background:linear-gradient(purple , orange);
+        font-size: 36px;
+        border-radius: 5px;
+        top: 15px;
+        left: 70px;
+        z-index: 2;
+    }
+
+    .fa-solid {
+        z-index: 2;
+        position: absolute;
+        font-size: 48px;
+        color:  rgba(255, 255, 255, 0.7);
+    }
+    .fa-solid:hover {
+        transform: scale(1.2);
+        color: rgba(84, 84, 84, 0.729);
+      }
+      .fa-arrow-left {
+        margin-left: 0px;
+        left: 10px;
+      }
+      .fa-arrow-right {
+        margin-right: 0px;
+        right: 10px;
+      }
+      .index-carousel {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        bottom: 5%;
+        left: 43%;
+        
+    
+        span {
+          position: relative;
+          font-size: 24px;
+          z-index: 2;
+          width: 30px;
+          height: 15px;
+          border-radius: 3px;
+          background-color: rgba(255, 255, 255, 0.7);
+        }
+        .span-selected {
+            background-color: rgba(84, 84, 84, 0.729);
+        }
+        span:hover {
+            background-color: rgba(56, 55, 77, 0.729);
+        }
+      }
+
     figure {
         position: relative;
         overflow: hidden;
