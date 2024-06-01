@@ -5,12 +5,16 @@ function Header() {
     return (
         <header>
             <div className='logo-container'>
-                <Link to="https://github.com/Cr0ustillant?tab=repositories" target="blank" ><div className='logo'>Jérôme Duprez</div></Link>
+                <Link to="https://github.com/Cr0ustillant?tab=repositories" target="blank" >
+                    <h1 className='logo'>Jérôme Duprez</h1>
+                    <div className='sub-title'>Intégrateur-Web Junior</div>
+                </Link>
             </div>
             <nav>
                 <ul>
-                    <Link><li>Accueil</li></Link>
-                    <Link><li>Mes projets</li></Link>
+                    <Link to="/"><li>Accueil</li></Link>
+                    <a href='#project'><li>Mes projets</li></a>
+                    <a href='#contact'><li>Me contacter</li></a>
                 </ul>
             </nav>
         </header>

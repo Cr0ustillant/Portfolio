@@ -1,13 +1,25 @@
 header {
     display: flex;
     flex-direction: row;
-    background-color: rgba(23, 30, 36, 0.9);
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     color: white;
+    background-color: rgba(23, 30, 36, 0.9);
+    position:static;
+    top: 0;
+    width: 100%;
     .logo-container {
+        display: flex;
+        margin: 10px 0;
+        h1 {
+            margin: auto 0;
+        }
         .logo:hover {
             transform: scale(1.1);
+        }
+        .sub-title {
+            
         }    
     }
     nav {
