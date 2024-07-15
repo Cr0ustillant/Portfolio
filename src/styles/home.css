@@ -22,3 +22,84 @@ body a {
 body ul, body li {
   list-style: none;
 }
+
+body h2 {
+  position: absolute;
+  color: white;
+  font-size: 36px;
+  border-radius: 5px;
+  top: 15px;
+  left: 70px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1400px) {
+  body .skill-section .skill-container {
+    flex-direction: column;
+  }
+  body .main-cards {
+    height: 100%;
+    min-height: 2000px;
+  }
+  body .main-cards .cards-container {
+    padding: 100px 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+  body .main-cards .cards-container .fa-arrow-right {
+    top: 45px;
+  }
+  body .main-cards .cards-container .fa-arrow-left {
+    display: none;
+  }
+  body .main-cards .cards-container figure:hover {
+    height: 500px;
+  }
+  body .contact-section form {
+    min-width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body header h1 {
+    font-size: 24px;
+  }
+  body header .sub-title {
+    font-size: 14px;
+  }
+  body header nav ul {
+    gap: 20px;
+    font-size: 14px;
+  }
+  body .skill-section .skill-container {
+    flex-direction: column;
+  }
+  body .main-cards {
+    height: 100%;
+    min-height: 2000px;
+  }
+  body .main-cards .cards-container {
+    padding: 100px 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+  body .main-cards .cards-container .fa-arrow-right {
+    top: 45px;
+  }
+  body .main-cards .cards-container .fa-arrow-left {
+    display: none;
+  }
+  body .main-cards .cards-container figure {
+    height: 450px;
+  }
+  body .main-cards .cards-container figure figcaption h3 {
+    font-size: 16px;
+  }
+  body .main-cards .cards-container figure figcaption p {
+    font-size: 14px;
+  }
+  body .main-cards .cards-container figure figure:hover {
+    height: 500px;
+  }
+}

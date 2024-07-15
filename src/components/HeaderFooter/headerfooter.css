@@ -49,4 +49,11 @@ footer {
 footer ul {
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul li {
+  display: flex;
+  flex-direction: column;
 }

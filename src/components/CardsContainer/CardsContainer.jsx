@@ -1,7 +1,7 @@
 import Card from "../Cards/Card";
 import '../CardsContainer/cardsContainer.css';
 import { useState } from "react";
-
+import { Link } from 'react-router-dom';
 
 function CardsContainer({data}) {
 
@@ -16,13 +16,15 @@ function CardsContainer({data}) {
     };
 
     return (
-        <section>
+        <section className="main-cards">
             <h2 id="project">{data[sliderIndex][0].sectionTitle}</h2>
-            {data[sliderIndex].map((card , index) => (
-                <Card key={'card'+ index} title={card.title} description={card.description} imgSrc={card.src} skill={card.skill}/>) 
-                )}
-            <i className="fa-solid fa-arrow-left" onClick={prevSlide}></i>
-            <i className="fa-solid fa-arrow-right" onClick={nextSlide}></i>
+            <div className="cards-container">
+                {data[sliderIndex].map((card , index) => (
+                    <Link to={data[sliderIndex][index].link}><Card key={'card'+ index} title={card.title} description={card.description} imgSrc={card.src} skill={card.skill}/></Link>) 
+                    )}
+                <i className="fa-solid fa-arrow-left" onClick={prevSlide}></i>
+                <i className="fa-solid fa-arrow-right" onClick={nextSlide}></i>
+            </div>
         </section>
     )
 }

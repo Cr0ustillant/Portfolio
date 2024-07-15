@@ -1,28 +1,18 @@
 .contact-section {
     display: flex;
+    position: relative;
     flex-direction: column;
+    justify-content: space-around;
     height: 1000px;
     width: 100%;
     background-color:  rgba(23, 30, 36, 0.9);
-    justify-content: space-around;
-    overflow: hidden;
-
-    h2 {
-        position: relative;
-        color: white;
-        font-size: 36px;
-        border-radius: 5px;
-        top: 15px;
-        left: 70px;
-        z-index: 2;
-    }
 
     form {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-self: center;
-        width: 500px;
+        min-width: 500px;
         height: 500px;
         background-color: rgb(113, 113, 116);
         padding: 20px 40px;
@@ -45,6 +35,9 @@
                 border-style: none;
                 padding: 20px 40px;
                 background-color: rgb(206, 199, 199);
+            }
+            button:hover {
+                transform: scale(1.1);
             }
     }
 }

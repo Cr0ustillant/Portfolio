@@ -1,5 +1,3 @@
-
-
 function Card({ title , description , imgSrc , skill }) {
     return (
         <figure>

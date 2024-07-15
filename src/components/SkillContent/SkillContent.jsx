@@ -3,26 +3,34 @@ import './SkillContent.css';
 function SkillContent() {
     return (
         <section className="skill-section">
-            <h2>Mes compétences</h2>
             <div className="skill-container">
+                <h2>Mes compétences</h2>
                 <article>
-                    <p>Languages connue : Html5, Css et JavaScript (react)</p>
+                    <ul>Languages connues :
+                        <li>• HTML 5</li>  
+                        <li>• CSS</li> 
+                        <li>• JavaScript</li>
+                    </ul>
+                    <ul>Outils :
+                        <li>• Git/Git-hub </li>
+                        <li>• Vscode </li>
+                        <li>• Figma</li>
+                    </ul>
                 </article>
                 <article>
-                    <p>Mon parcours :
-                    - La nursseries numériques
-                    - OpenClassRooms"intégrateur web" 
-                    </p>
+                    <ul>Mon parcours :
+                       <li>• La nursseries numériques</li> 
+                       <li>• OpenClassRooms "intégrateur web"</li>
+                        
+                    </ul>
                 </article>
                 <article>
-                    <p>"Bonjour ! Je m'appelle Jérôme et je suis intégrateur-web junior .
-                        Il y à maintenant 1 ans j'ai quitté mon métier pour me reconvertir dans le domaine du developpement.
-                        En intégrant la nurserie-numérique, j'ai pu acquerir des bases solides et confirmer mon interet pour le developpement web.
-                        J'ai par la suite suivis une formation d'intégrateur web avec OpenClassrooms dans laquels j'ai pu apprendre à utilisées les technologies et langages de programation/developpement actuelles".  Jérôme
-                    </p>
-                </article>
-                <article>
-                    <p>Voilà pour mon parcours, n'hésitez pas à jeter un oeil à mes projet et à me contacter si vous avez besoins d'un développeur ou pour toute question, c'est avec plaisir que je vous repondrais! </p>
+                    <ul>Mon savoir faire : 
+                        <li>• Référencement et optimiser les performances d'un site/application Web,</li>
+                        <li>• Intégration de fonctionalité et d'interface utilisateur dynamique,</li>
+                        <li>• Création d'animation css</li>
+                        <li>• Utilisation d'un terminal et d'API</li>
+                    </ul>
                 </article>
                 
             </div>

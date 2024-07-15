@@ -6,7 +6,7 @@ header {
     text-align: center;
     color: white;
     background-color: rgba(23, 30, 36, 0.9);
-    position:static;
+    position: static;
     top: 0;
     width: 100%;
     .logo-container {
@@ -49,5 +49,11 @@ footer {
     ul {
         padding: 0;
         list-style: none;
+        display: flex;
+        flex-direction: row;
+        li {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
