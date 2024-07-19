@@ -20,7 +20,7 @@ function CardsContainer({data}) {
             <h2 id="project">{data[sliderIndex][0].sectionTitle}</h2>
             <div className="cards-container">
                 {data[sliderIndex].map((card , index) => (
-                    <Link to={data[sliderIndex][index].link}><Card key={'card'+ index} title={card.title} description={card.description} imgSrc={card.src} skill={card.skill}/></Link>) 
+                    <Link key={'link-card'+ index} to={data[sliderIndex][index].link}><Card key={'card'+ index} title={card.title} description={card.description} imgSrc={card.src} alt={card.alt} skill={card.skill}/></Link>) 
                     )}
                 <i className="fa-solid fa-arrow-left" onClick={prevSlide}></i>
                 <i className="fa-solid fa-arrow-right" onClick={nextSlide}></i>
