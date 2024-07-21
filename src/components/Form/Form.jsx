@@ -33,7 +33,7 @@ function Form() {
                     <input type="text" id="firstname" value={firstname} onChange={(e) => setFirstname(e.target.value)}/>
                 </label>
                 <label htmlFor="email">Email
-                    <input text="email" id="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                    <input text="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 </label>
                 <label htmlFor="textMessage">Message :
                     <textarea id="textMessage"  rows={15} value={textMessage} onChange={(e) => setTextMessage(e.target.value)}/>

@@ -4,15 +4,14 @@ function Card({ title , description , imgSrc , skill , alt }) {
             <figcaption>
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <img src={imgSrc} alt="alt" />
             </figcaption>
             <div className="wrapper">
                 <div className="triangle"></div>
                 <img src={imgSrc} alt={alt} />
-                <div className="skill-card">
-                    {skill.map((element, index) => (<p key={index + skill}>{element}</p>)
+                <ul className="skill-card">
+                    {skill.map((element, index) => (<li key={index + skill}>{element}</li>)
                 )}  
-                </div>
+                </ul>
             </div>
         </figure>
     )

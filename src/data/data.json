@@ -5,7 +5,7 @@
             "title" :  "OhMyFood",
             "description" : "Dans ce projet, j'ai eu l'opportunité de travailler sur l'interface mobile-first du site d'une start-up. L'objectif était de créer une interface utilisateur réactive avec des animations Css. ",
             "skill" : ["- Intégrer une maquette en mobile-first","- Mettre en œuvre des animations CSS","- Versionner son projet avec Git et Github"],
-            "src" : "../assets/images/imgOhMyFood.webp",
+            "imgSrc" : "Portfolio/assets/images/imgOhMyFood.webp",
             "alt" : "Home page du site OhMyFood",
             "link" :  "https://github.com/Cr0ustillant/OCR-OhMyFood"
         },
@@ -13,7 +13,7 @@
             "title" : "Kasa",
             "description" : "Le projet consiste à travailler sur l'implémentation du front-end d'une application en utilisant React et React Router.",
             "skill" : ["- Mettre en œuvre des animations CSS","- Développer une interface web avec Sass","- Initialiser une application avec Create React App", "- Configurer la navigation entre les pages de l'application avec React Router", "- Développer des éléments de l'interface d'un site web grâce à des composants React"],
-            "src" : "../assets/images/imgKasa.Webp",
+            "imgSrc" : "Portfolio/assets/images/imgKasa.Webp",
             "alt" : "Home page du site Kasa",
             "link" :  "https://github.com/Cr0ustillant/kasa"
         }, 
@@ -21,7 +21,7 @@
             "title" : "Portfolio de Sophie Bluel",
             "description" : "Dans ce projet, je vais développer une page web dynamique pour le site d'une architecte d'intérieur, en utilisant JavaScript et en communiquant avec une API.",
             "skill" : ["- Gérer les événements utilisateurs avec JavaScript","- Manipuler les éléments du DOM avec JavaScript","- Récupérer les données utilisateurs dans le JavaScript via des formulaires"],
-            "src" : "../assets/images/imgSophie.webp",
+            "imgSrc" : "Portfolio/assets/images/imgSophie.webp",
             "alt" : "Home page du portfolio de Sophie Bluel",
             "link" :  "https://github.com/Cr0ustillant/Portfolio-architecte-sophie-bluel"
         }          
@@ -32,7 +32,7 @@
             "title" : "Site de Nina Carducci",
             "skill" : ["- Optimiser la performance d'un site web","- Référencer le site"],
             "description" : "Dans ce projet, en tant que développeur freelance, j'ai travaillé sur l'optimisation du référencement (SEO), de la performance et de l'accessibilité d'un site web. L'objectif était d'améliorer sa visibilité sur les moteurs de recherche et d'assurer une meilleure expérience utilisateur.",
-            "src" : "../assets/images/imgNina.webp",
+            "imgSrc" : "Portfolio/assets/images/imgNina.webp",
             "alt" : "Home page du site de Nina Carducci",
             "link" :  "https://github.com/Cr0ustillant/Portfolio-de-Nina-Carducci"
         },          
@@ -40,9 +40,9 @@
             "title" : "724 events",
             "description" : "Dans ce projet, j'ai travaillé sur le débogage et la finalisation du développement d'un site one-page. Mon objectif principal était d'examiner et d'améliorer le code existant, tout en assurant la qualité et la fiabilité du site.",
             "skill" : ["- Débugger un site web grâce aux Chrome DevTools","- Rédiger un cahier de recette pour tester un site"],
-            "src" : "../assets/images/img724Events.webp",
+            "imgSrc" : "Portfolio/assets/images/img724Events.webp",
             "alt" : "Home page du site 724 events",
             "link" :  "https://github.com/Cr0ustillant/D-buggez-le-site-d-une-agence-d-v-nementiel"
         }
     ] 
-]        
+]

@@ -3,18 +3,16 @@
     position: relative;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     height: 1000px;
-    width: 100%;
     background-color:  rgba(23, 30, 36, 0.9);
-
     form {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-self: center;
-        min-width: 500px;
         height: 500px;
-        background-color: rgb(113, 113, 116);
+        width: 50%;
+        background-color: rgb(143, 143, 147);
         padding: 20px 40px;
         border-radius: 10px;
 

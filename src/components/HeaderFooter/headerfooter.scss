@@ -3,6 +3,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    height: 10vh;
     text-align: center;
     color: white;
     background-color: rgba(23, 30, 36, 0.9);
@@ -42,7 +43,7 @@ footer {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 200px;
+    height: 15vh;
     color: white;
     background-color: black;
     
@@ -54,6 +55,25 @@ footer {
         li {
             display: flex;
             flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        .logo-container {
+            h1 {
+                font-size: 16px;
+            }
+            .sub-title {
+                font-size: 14px;
+            }
+        }
+        nav ul {
+            gap: 5px;
+            li {
+                font-size: 12px;
+            }
         }
     }
 }

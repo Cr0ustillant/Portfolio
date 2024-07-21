@@ -1,0 +1,1 @@
+.main-error{display:flex;height:75vh;flex-direction:column;background-color:rgba(0,0,0,0.9);color:white;justify-content:center;align-items:center;gap:40px}.main-error h1{color:red;font-size:64px}.main-error strong{font-size:36px}.main-error a{text-decoration:underline}@media screen and (max-width: 700px){.main-error h1{font-size:34px}.main-error strong{font-size:18px}}

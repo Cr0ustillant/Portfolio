@@ -3,12 +3,23 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  gap: 20px;
-  color: white;
+  color: black;
   text-align: center;
-  background-color: #030518;
-  padding: 70px;
+  background-color: #47474d;
+  padding: 20px;
   min-height: 12.5rem;
+}
+
+.banner .banner-style-grey {
+  background-color: grey;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.banner .banner-style-white {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .banner strong {

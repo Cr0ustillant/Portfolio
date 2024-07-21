@@ -1,11 +1,10 @@
-import Banner from '../components/Banner/Banner';
 import MailContainer from '../components/MailContainer/MailContainer';
+import "../styles/mailBox.css";
 
 function MailBox() {
 
     return (
-        <div className="MailBox">
-            <Banner />
+        <div className="mail-box">
             <MailContainer />
         </div>
     );

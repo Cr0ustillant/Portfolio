@@ -3,8 +3,8 @@
   position: relative;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   height: 1000px;
-  width: 100%;
   background-color: rgba(23, 30, 36, 0.9);
 }
 
@@ -12,10 +12,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-self: center;
-  min-width: 500px;
   height: 500px;
-  background-color: #717174;
+  width: 50%;
+  background-color: #8f8f93;
   padding: 20px 40px;
   border-radius: 10px;
 }

@@ -8,7 +8,7 @@ function MailContainer() {
     const { formDataList } = useContext(FormDataContext);
     return (
         <section className='mail-container'>
-            <h2>Messagerie</h2>
+            <h2 className='mail-title'>Messagerie</h2>
             {formDataList.map((formData, index) => (
                 <Mail
                     key={index}
