@@ -13,8 +13,8 @@ function Header() {
             <nav>
                 <ul>
                     <Link to="/"><li>Accueil</li></Link>
-                    <a href='#project'><li>Mes projets</li></a>
-                    <a href='#contact'><li>Me contacter</li></a>
+                    <li><a href='#project'>Mes projets</a></li>
+                    <li><a href='#contact'>Me contacter</a></li>
                 </ul>
             </nav>
         </header>
