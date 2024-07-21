@@ -26,8 +26,8 @@ function SkillContent() {
                 </article>
                 <article>
                     <ul>Mon savoir faire : 
-                        <li>• Référencement et optimiser les performances d'un site/application Web,</li>
-                        <li>• Intégration de fonctionalité et d'interface utilisateur dynamique,</li>
+                        <li>• Référencement et optimiser les performances d'un site/application Web</li>
+                        <li>• Intégration de fonctionalité et d'interface utilisateur dynamique</li>
                         <li>• Création d'animation css</li>
                         <li>• Utilisation d'un terminal et d'API</li>
                     </ul>

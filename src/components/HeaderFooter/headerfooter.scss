@@ -18,6 +18,7 @@ header {
         }
         .logo:hover {
             transform: scale(1.1);
+            color: orange;
         }
         .sub-title {
             
@@ -29,9 +30,16 @@ header {
             flex-direction: row;
             gap: 40px;          
             padding: 0;
+            li {
+                padding: 5px;   
+                margin-bottom: 10px;
+                border-top: solid transparent 2px;
+            }
 
-            a:hover {
+            li:hover,.repos-link:hover {
                 transform: scale(1.1);
+                color: orange;
+                border-top: solid orange 2px;
             }
         }
     }

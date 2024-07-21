@@ -23,6 +23,7 @@ header .logo-container h1 {
 
 header .logo-container .logo:hover {
   transform: scale(1.1);
+  color: orange;
 }
 
 header nav ul {
@@ -32,8 +33,16 @@ header nav ul {
   padding: 0;
 }
 
-header nav ul a:hover {
+header nav ul li {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-top: solid transparent 2px;
+}
+
+header nav ul li:hover, header nav ul .repos-link:hover {
   transform: scale(1.1);
+  color: orange;
+  border-top: solid orange 2px;
 }
 
 footer {

@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 500px;
-  width: 50%;
+  width: 35%;
   background-color: #8f8f93;
   padding: 20px 40px;
   border-radius: 10px;
@@ -40,4 +40,6 @@
 
 .contact-section form button:hover {
   transform: scale(1.1);
+  background-color: orange;
+  color: white;
 }

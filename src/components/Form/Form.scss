@@ -11,7 +11,7 @@
         flex-direction: column;
         justify-content: space-between;
         height: 500px;
-        width: 50%;
+        width: 35%;
         background-color: rgb(143, 143, 147);
         padding: 20px 40px;
         border-radius: 10px;
@@ -25,7 +25,7 @@
                 border-radius: 5px;
                 margin-top: 5px;
             }
-
+   
             button {
                 align-self: center;
                 width: 200px;
@@ -36,6 +36,9 @@
             }
             button:hover {
                 transform: scale(1.1);
+                background-color: orange;
+                color: white;
             }
+
     }
 }

@@ -99,7 +99,7 @@ body h2 {
   }
   body .main-cards .cards-container figure {
     max-height: 450px;
-    width: 200px;
+    max-width: 269px;
   }
   body .main-cards .cards-container figure figcaption h3 {
     font-size: 24px;
@@ -135,5 +135,28 @@ body h2 {
     border-radius: 15px;
     padding: 10px 20px;
     background-color: #cec7c7;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  body .main-cards .cards-container figure {
+    max-height: 450px;
+    max-width: 200px;
+  }
+  body .main-cards .cards-container figure figcaption h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  body .main-cards .cards-container figure figcaption p {
+    font-size: 18px;
+  }
+  body .main-cards .cards-container figure .wrapper img {
+    height: 150px;
+  }
+  body .main-cards .cards-container figure:hover {
+    max-height: 500px;
+  }
+  body .main-cards .cards-container figure:hover .wrapper .skill-card li {
+    font-size: 16px;
   }
 }

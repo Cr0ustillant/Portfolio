@@ -25,7 +25,7 @@
 
 .main-cards .cards-container .fa-solid:hover {
   transform: scale(1.2);
-  color: white;
+  color: orange;
 }
 
 .main-cards .cards-container .fa-arrow-left {
@@ -36,65 +36,6 @@
 .main-cards .cards-container .fa-arrow-right {
   margin-right: 1rem;
   right: 15px;
-}
-
-.main-cards .cards-container h2 {
-  position: absolute;
-  color: white;
-  font-size: 36px;
-  border-radius: 5px;
-  top: 15px;
-  left: 70px;
-  z-index: 2;
-}
-
-.main-cards .cards-container .fa-solid {
-  z-index: 2;
-  position: absolute;
-  font-size: 48px;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.main-cards .cards-container .fa-solid:hover {
-  transform: scale(1.2);
-  color: rgba(84, 84, 84, 0.729);
-}
-
-.main-cards .cards-container .fa-arrow-left {
-  margin-left: 0px;
-  left: 10px;
-}
-
-.main-cards .cards-container .fa-arrow-right {
-  margin-right: 0px;
-  right: 10px;
-}
-
-.main-cards .cards-container .index-carousel {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-  bottom: 5%;
-  left: 43%;
-}
-
-.main-cards .cards-container .index-carousel span {
-  position: relative;
-  font-size: 24px;
-  z-index: 2;
-  width: 30px;
-  height: 15px;
-  border-radius: 3px;
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-.main-cards .cards-container .index-carousel .span-selected {
-  background-color: rgba(84, 84, 84, 0.729);
-}
-
-.main-cards .cards-container .index-carousel span:hover {
-  background-color: rgba(56, 55, 77, 0.729);
 }
 
 .main-cards .cards-container figure {
