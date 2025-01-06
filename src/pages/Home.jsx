@@ -7,14 +7,11 @@ import SkillContent from '../components/SkillContent/SkillContent';
 
 function Home() {
     return (
-        <div>
-            <Banner />
-            <main>
-                <SkillContent />
-                <CardsContainer data={data} />
-                <Form />
-            </main>
-        </div>
+        <main>
+            <SkillContent />
+            <CardsContainer data={data} />
+            <Form />
+        </main>
     )
 }
 

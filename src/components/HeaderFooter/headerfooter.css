@@ -6,10 +6,11 @@ header {
   height: 10vh;
   text-align: center;
   color: white;
-  background-color: rgba(23, 30, 36, 0.9);
-  position: static;
+  background-color: rgba(0, 0, 0, 0.333);
+  position: sticky;
   top: 0;
   width: 100%;
+  z-index: 3;
 }
 
 header .logo-container {
@@ -45,6 +46,10 @@ header nav ul li:hover, header nav ul .repos-link:hover {
   border-top: solid orange 2px;
 }
 
+header:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -66,6 +71,11 @@ footer ul {
 footer ul li {
   display: flex;
   flex-direction: column;
+}
+
+footer ul li a:hover {
+  transform: scale(1.1);
+  color: orange;
 }
 
 @media screen and (max-width: 700px) {

@@ -6,10 +6,11 @@ header {
     height: 10vh;
     text-align: center;
     color: white;
-    background-color: rgba(23, 30, 36, 0.9);
-    position: static;
+    background-color: rgba(0, 0, 0, 0.333);
+    position: sticky;
     top: 0;
     width: 100%;
+    z-index: 3;
     .logo-container {
         display: flex;
         margin: 10px 0;
@@ -44,6 +45,9 @@ header {
         }
     }
 }
+header:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
 
 footer {
     display: flex;
@@ -63,6 +67,10 @@ footer {
         li {
             display: flex;
             flex-direction: column;
+            a:hover {
+                transform: scale(1.1);
+                color: orange;
+            }
         }
     }
 }
