@@ -7,8 +7,8 @@ function Form() {
     const [firstname, setFirstname] = useState("");
     const [email, setEmail] = useState("");
     const [textMessage, setTextMessage] = useState("");
-    const [status, setStatus] = useState(""); // affiche le statut
-    const form = useRef(); // Utilisé pour référencer le formulaire HTML
+    const [status, setStatus] = useState(""); 
+    const form = useRef(); 
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -16,10 +16,10 @@ function Form() {
             // Utilisation d'EmailJS pour envoyer le message
             emailjs
                 .sendForm(
-                    "service_2qow6tw",    // Remplace par ton Service ID EmailJS
-                    "template_pvijxmw",   // Remplace par ton Template ID EmailJS
+                    "service_2qow6tw",    
+                    "template_pvijxmw",   
                     form.current,
-                    "UGa-9B_skvjsXl1Tv"     // Remplace par ta Public Key EmailJS
+                    "UGa-9B_skvjsXl1Tv"     
                 )
                 .then(
                     (result) => {
@@ -41,30 +41,34 @@ function Form() {
     };
 
     return (
-        <div className="contact-section">
-            <h2 id="contact">Me contacter</h2>
+        <section className="contact-section">
+            <div className="title-form">
+                <h2 id="contact">Me contacter</h2>
+            </div>
             <form ref={form} onSubmit={handleSubmit}>
-                <label htmlFor="name">Nom
-                    <input
-                        type="text"
-                        id="name"
-                        name="user_name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        required
-                    />
-                </label>
-                <label htmlFor="firstname">Prénom
-                    <input
-                        type="text"
-                        id="firstname"
-                        name="user_firstname"
-                        value={firstname}
-                        onChange={(e) => setFirstname(e.target.value)}
-                        required
-                    />
-                </label>
-                <label htmlFor="email">Email
+                <div>
+                    <label htmlFor="name">Nom :
+                        <input
+                            type="text"
+                            id="name"
+                            name="user_name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            required
+                        />
+                    </label>
+                    <label htmlFor="firstname">Prénom :
+                        <input
+                            type="text"
+                            id="firstname"
+                            name="user_firstname"
+                            value={firstname}
+                            onChange={(e) => setFirstname(e.target.value)}
+                            required
+                        />
+                    </label>
+                </div>
+                <label htmlFor="email">Email :
                     <input
                         type="email"
                         id="email"
@@ -82,12 +86,13 @@ function Form() {
                         value={textMessage}
                         onChange={(e) => setTextMessage(e.target.value)}
                         required
+                        style={{resize: "none",maxLength: "700"}}
                     />
                 </label>
                 <button type="submit">Envoyer</button>
                 {status && <p>{status}</p>}
             </form>
-        </div>
+        </section>
     );
 }
 

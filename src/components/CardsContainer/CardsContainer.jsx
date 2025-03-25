@@ -7,10 +7,6 @@ function CardsContainer({data}) {
 
     const [sliderIndex ,setSliderIndex] = useState(0)
 
-    const prevSlide = () => {
-        setSliderIndex((sliderIndex === 0) ? data.length - 1 : sliderIndex - 1);
-    };
-
     const nextSlide = () => {
         setSliderIndex((sliderIndex === data.length - 1) ? 0 : sliderIndex + 1);
     };
@@ -24,8 +20,7 @@ function CardsContainer({data}) {
                         <Card key={'card'+ index} title={card.title} description={card.description} imgSrc={card.imgSrc} alt={card.alt} skill={card.skill}/>
                     </Link>) 
                     )}
-                <i className="fa-solid fa-arrow-left" onClick={prevSlide}></i>
-                <i className="fa-solid fa-arrow-right" onClick={nextSlide}></i>
+                <div className="switch s-right" onClick={nextSlide}>Voir plus</div>
             </div>
         </section>
     )

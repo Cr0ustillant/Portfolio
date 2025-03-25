@@ -3,13 +3,14 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
   height: 10vh;
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.333);
+  background-color: transparent;
   position: sticky;
+  transition: background-color 0.8s ease;
   top: 0;
-  width: 100%;
   z-index: 3;
 }
 
@@ -40,6 +41,10 @@ header nav ul li {
   border-top: solid transparent 2px;
 }
 
+header nav ul li a i {
+  margin-left: 5px;
+}
+
 header nav ul li:hover, header nav ul .repos-link:hover {
   transform: scale(1.1);
   color: orange;
@@ -47,7 +52,7 @@ header nav ul li:hover, header nav ul .repos-link:hover {
 }
 
 header:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.644);
 }
 
 footer {
@@ -56,7 +61,6 @@ footer {
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 15vh;
   color: white;
   background-color: black;
 }

@@ -3,13 +3,14 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
     height: 10vh;
     text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.333);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
     position: sticky;
+    transition: background-color 0.8s ease;
     top: 0;
-    width: 100%;
     z-index: 3;
     .logo-container {
         display: flex;
@@ -22,7 +23,6 @@ header {
             color: orange;
         }
         .sub-title {
-            
         }    
     }
     nav {
@@ -35,6 +35,11 @@ header {
                 padding: 5px;   
                 margin-bottom: 10px;
                 border-top: solid transparent 2px;
+                a{
+                    i{
+                        margin-left: 5px;
+                    }
+                }
             }
 
             li:hover,.repos-link:hover {
@@ -46,7 +51,7 @@ header {
     }
 }
 header:hover {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.644);
 }
 
 footer {
@@ -55,7 +60,6 @@ footer {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 15vh;
     color: white;
     background-color: black;
     

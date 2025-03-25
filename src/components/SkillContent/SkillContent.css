@@ -1,41 +1,51 @@
 .skill-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
   z-index: 2;
-  position: relative;
-  padding: 8rem;
 }
 
-.skill-section strong {
+.skill-section h2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 48px;
   color: white;
+  margin: 10rem 0 0 0;
+  flex: 1;
 }
 
 .skill-section .skill-container {
+  width: 320px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px;
+  margin-bottom: 10rem;
+}
+
+.skill-section .skill-container .grid-item {
+  width: 100px;
+  height: 100px;
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  min-height: 25rem;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background: rgba(255, 255, 255, 0.959);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
-.skill-section .skill-container article {
-  border-radius: 8px;
-  padding: 30px;
-  border: 1px solid black;
-  font-size: 24px;
-  background: linear-gradient(rgba(180, 115, 246, 0.804), rgba(209, 149, 36, 0.781));
+.skill-section .skill-container .grid-item:empty {
+  background: transparent;
+  /* Case vide */
 }
 
-.skill-section .skill-container article ul {
-  font-weight: bold;
-  color: white;
-  padding: 0;
-}
-
-.skill-section .skill-container article ul li {
-  text-align: left;
-  font-weight: normal;
-  margin-top: 10px;
+.skill-section .skill-container .grid-item:hover {
+  color: orange;
+  transform: scale(1.1);
 }
