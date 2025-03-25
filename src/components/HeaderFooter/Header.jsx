@@ -23,7 +23,7 @@ function Header({setCurrentSlide}) {
                         </Link>
                     </li>
                     <li>
-                        <Link to="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-duprez-13248231b/?trk=opento_sprofile_topcard">Linkedin
+                        <Link to="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-duprez-13248231b/?trk=opento_sprofile_topcard" target="blank">Linkedin
                         <i className="fa-brands fa-linkedin-in"></i>
                         </Link>
                     </li>
