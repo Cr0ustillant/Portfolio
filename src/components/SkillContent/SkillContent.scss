@@ -30,36 +30,25 @@
       justify-content: center;
       align-items: center;
       font-size: 40px;
-      background: rgba(255, 255, 255, 0.959);
       border-radius: 10px;
       cursor: pointer;
       transition: all 0.5s ease;
+      position: relative;
+      background-color: #f4f4f4;
     }
 
     .grid-item:empty {
-      background: transparent; /* Case vide */
+      background: transparent;      
+      cursor: default;
     }
     .grid-item:hover {
-        color: orange;
-        transform: scale(1.1);
+      color: orange;
+      transform: scale(1.1);
+      i {color: orange;}    
     }
-
-    // article {
-    //     border-radius: 8px;
-    //     padding: 5px 30px 30px 30px;
-    //     border: 1px solid rgb(0, 0, 0);
-    //     font-size: 24px;
-    //     background: linear-gradient(rgba(180, 115, 246, 0.804), rgba(209, 149, 36, 0.781));
-    //     ul {
-    //         font-weight: bold;
-    //         color: white;
-    //         padding: 0;
-    //         li {
-    //             text-align: left;
-    //             font-weight: normal;
-    //             margin-top: 10px;
-    //         }
-    //     }
-    // }
+    .grid-item i {
+      font-size: 40px;
+      color: #333;
+    }
   }
 }

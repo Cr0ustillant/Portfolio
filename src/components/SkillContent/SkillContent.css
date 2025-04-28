@@ -34,18 +34,28 @@
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  background: rgba(255, 255, 255, 0.959);
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.5s ease;
+  position: relative;
+  background-color: #f4f4f4;
 }
 
 .skill-section .skill-container .grid-item:empty {
   background: transparent;
-  /* Case vide */
+  cursor: default;
 }
 
 .skill-section .skill-container .grid-item:hover {
   color: orange;
   transform: scale(1.1);
+}
+
+.skill-section .skill-container .grid-item:hover i {
+  color: orange;
+}
+
+.skill-section .skill-container .grid-item i {
+  font-size: 40px;
+  color: #333;
 }
